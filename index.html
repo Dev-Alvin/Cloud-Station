@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Bootstrap Theme</title>
+</head>
+
+<body data-spy="scroll" data-target="#main-nav" id="home">
+
+  <header id="home-section">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
+      <div class="container">
+        <a href="index.html" class="navbar-brand d-flex align-items-center"><img src="./img/cloud.png" alt="Logo" class="logo d-flex align-items-center">Cloud Station</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services-section" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#pricing" class="nav-link">Price</a>
+            </li>
+            <li class="nav-item">
+              <a href="#news" class="nav-link">News</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="overlay">
+      <!-- HOME-SECTION -->
+      <div class="inner-home container pb-5">
+        <div class="row">
+          <div class="col-lg-12 text-center text-white">
+            <h1 class="display-4">Build a cloud to support your business</h1>
+            <p>Learn more by subscribing and find the right cloud service.</p>
+            <form action="" method="" class="mb-3">
+              <input type="email" name="email" placeholder="Enter your Email"><input type="submit" value="Subscribe">
+            </form>
+            <p>Don't have a account <a href="#">Sign Up</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SERVICES-SECTION -->
+  <section id="services-section" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center mb-5">
+          <h3>Our Services</h3>
+          <p>Support are customers with great technologies</p>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 icons">
+          <div class="text-center p-3">
+            <i class="fas fa-thumbs-up fa-3x mb-3"></i>
+            <h5>Smart Layout</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, eveniet.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 icons">
+          <div class="text-center p-3">
+            <i class="fas fa-eye fa-3x mb-3"></i>
+            <h5>Easy To Use</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, eveniet.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 icons">
+          <div class="text-center p-3">
+            <i class="fas fa-cog fa-3x mb-3"></i>
+            <h5>Bootstrap Engine</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, eveniet.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 icons">
+          <div class="text-center p-3">
+            <i class="fas fa-shield-alt fa-3x mb-3"></i>
+            <h5>Protected</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, eveniet.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 icons">
+          <div class="text-center p-3">
+            <i class="fas fa-users fa-3x mb-3"></i>
+            <h5>Big Community</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, eveniet.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 icons">
+          <div class="text-center p-3">
+            <i class="fas fa-video fa-3x mb-3"></i>
+            <h5>Lots of Videos</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, eveniet.</p>
+          </div>
+        </div>
+
+        <button type="button" class="btn btn-info mt-4">
+          <a href="#">Sign up now</a>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing bg-secondary py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center mb-5 text-white">
+          <h3>Our pricing</h3>
+          <p>Great pricing for all users</p>
+          <hr class="bg-light">
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col-md-4 card-space">
+          <div class="card">
+            <div class="card-body">
+              <div class="text-center p-3">
+                <h5 class="card-title">Basic</h5>
+                <small>One User</small>
+                <br><br>
+                <span class="h2">$35</span>/month
+                <br><br>
+              </div>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <i class="fas fa-check"></i>
+                <span>Fast Access</span>
+              </li>
+              <li class="list-group-item">
+                <i class="fas fa-drafting-compass"></i>
+                <span>Simple UI</span>
+              </li>
+              <li class="list-group-item">
+                <i class="fas fa-cloud"></i>
+                <span>800 MB Cloud Data</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4 card-space">
+          <div class="card">
+            <div class="card-body">
+              <div class="text-center p-3">
+                <h5 class="card-title">Silver</h5>
+                <small>Five Users</small>
+                <br><br>
+                <span class="h2">$50</span>/month
+                <br><br>
+              </div>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <i class="fas fa-check"></i>
+                <span>Fast Access</span>
+              </li>
+              <li class="list-group-item">
+                <i class="fas fa-drafting-compass"></i>
+                <span>Simple UI</span>
+              </li>
+              <li class="list-group-item">
+                <i class="fas fa-cloud"></i>
+                <span>1500 MB Cloud Data</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4 card-space">
+          <div class="card">
+            <div class="card-body">
+              <div class="text-center p-3">
+                <h5 class="card-title">Gold</h5>
+                <small>Ten Users</small>
+                <br><br>
+                <span class="h2">$100</span>/month
+                <br><br>
+              </div>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <i class="fas fa-check"></i>
+                <span>Fast Access</span>
+              </li>
+              <li class="list-group-item">
+                <i class="fas fa-drafting-compass"></i>
+                <span>Simple UI / Custom Application</span>
+              </li>
+              <li class="list-group-item">
+                <i class="fas fa-cloud"></i>
+                <span>2000 MB Cloud Data</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="news" class="news py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center mb-5">
+          <h3>News</h3>
+          <p>Get updates on whats new and trending</p>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/women.jpg" alt="Person" class="img-fluid img-thumbnail person">
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro accusantium molestias ut enim, quod
+            reprehenderit perferendis ad, voluptatibus vel aliquid dignissimos incidunt architecto expedita eligendi
+            rerum ipsum iste repellendus nobis sequi aspernatur necessitatibus? Asperiores ratione ut non est
+            voluptatibus sapiente?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-secondary py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col d-flex justify-content-center py-3">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <p>Copy&copy; <span id="year"></span> Alvin Cristales</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
