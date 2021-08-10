@@ -111,7 +111,13 @@ footer .fab {
 footer .col p{
     font-size: 1rem;
 }
-@media screen and (min-width: 565px) {
+@media screen and (max-width: 565px) {
+    #home-section {
+        font-size: 1rem !important;
+    }
+    #home-section form {
+        width: 90%;
+    }
     .card-space {
         padding-bottom: 20px !important;
     }
