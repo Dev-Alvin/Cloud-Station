@@ -1,10 +1,7 @@
 /* Globle */
 .inner-home {
-    padding-top: 25rem;
+    padding-top: 30rem;
 }
-/* nav a {
-    color: #fff;
-} */
 hr {
     width: 30%;
 }
@@ -94,6 +91,9 @@ p {
 /* Price */
 #pricing .fas {
     padding-right: 5px;
+}
+#pricing .btn-li{
+    padding: 6px 50px;
 }
 
 /* News */
